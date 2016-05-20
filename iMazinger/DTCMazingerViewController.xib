@@ -25,13 +25,13 @@
                             </connections>
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="xfH-uK-5pM"/>
-                        <barButtonItem title="Satélite" id="Cvr-VF-Prn">
+                        <barButtonItem title="Satellite" id="Cvr-VF-Prn">
                             <connections>
                                 <action selector="satelliteMap:" destination="-1" id="FZK-2T-RHF"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="AqY-qk-e6a"/>
-                        <barButtonItem title="Híbrido" id="1I5-je-Mo8">
+                        <barButtonItem title="Hybrid" id="1I5-je-Mo8">
                             <connections>
                                 <action selector="hybridMap:" destination="-1" id="WNE-XQ-M94"/>
                             </connections>

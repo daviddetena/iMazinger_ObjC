@@ -16,6 +16,9 @@
 		599B81831CEEFB6F00AF47F2 /* DTCMazingerZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 599B81821CEEFB6F00AF47F2 /* DTCMazingerZ.m */; };
 		599B81881CEEFDB000AF47F2 /* DTCMazingerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599B81861CEEFDB000AF47F2 /* DTCMazingerViewController.m */; };
 		599B81891CEEFDB000AF47F2 /* DTCMazingerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 599B81871CEEFDB000AF47F2 /* DTCMazingerViewController.xib */; };
+		599B81901CEF115D00AF47F2 /* mazinger.png in Resources */ = {isa = PBXBuildFile; fileRef = 599B818F1CEF115D00AF47F2 /* mazinger.png */; };
+		599B81931CEF11A500AF47F2 /* mazinger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 599B81911CEF11A500AF47F2 /* mazinger@2x.png */; };
+		599B81941CEF11A500AF47F2 /* mazinger@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 599B81921CEF11A500AF47F2 /* mazinger@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		599B81851CEEFDB000AF47F2 /* DTCMazingerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCMazingerViewController.h; sourceTree = "<group>"; };
 		599B81861CEEFDB000AF47F2 /* DTCMazingerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTCMazingerViewController.m; sourceTree = "<group>"; };
 		599B81871CEEFDB000AF47F2 /* DTCMazingerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DTCMazingerViewController.xib; sourceTree = "<group>"; };
+		599B818F1CEF115D00AF47F2 /* mazinger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mazinger.png; sourceTree = "<group>"; };
+		599B81911CEF11A500AF47F2 /* mazinger@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mazinger@2x.png"; sourceTree = "<group>"; };
+		599B81921CEF11A500AF47F2 /* mazinger@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mazinger@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 		599B81631CEEF8AC00AF47F2 /* iMazinger */ = {
 			isa = PBXGroup;
 			children = (
+				599B818A1CEF054100AF47F2 /* Resources */,
 				599B81841CEEFD8F00AF47F2 /* Controllers */,
 				599B81801CEEFB5800AF47F2 /* Model */,
 				599B81671CEEF8AC00AF47F2 /* AppDelegate.h */,
@@ -115,6 +122,16 @@
 				599B81871CEEFDB000AF47F2 /* DTCMazingerViewController.xib */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		599B818A1CEF054100AF47F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				599B81911CEF11A500AF47F2 /* mazinger@2x.png */,
+				599B81921CEF11A500AF47F2 /* mazinger@3x.png */,
+				599B818F1CEF115D00AF47F2 /* mazinger.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,8 +191,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				599B81931CEF11A500AF47F2 /* mazinger@2x.png in Resources */,
+				599B81901CEF115D00AF47F2 /* mazinger.png in Resources */,
 				599B81741CEEF8AC00AF47F2 /* LaunchScreen.storyboard in Resources */,
 				599B81891CEEFDB000AF47F2 /* DTCMazingerViewController.xib in Resources */,
+				599B81941CEF11A500AF47F2 /* mazinger@3x.png in Resources */,
 				599B81711CEEF8AC00AF47F2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

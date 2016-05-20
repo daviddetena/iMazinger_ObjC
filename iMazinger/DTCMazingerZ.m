@@ -14,7 +14,7 @@
     if (self = [super init]) {
         // Assign value to instance variable _coordinate instead of self.coordinate
         // to avoid implementing method setCoordinate from protocol when initializing
-        _coordinate = CLLocationCoordinate2DMake(41.2827416, 1.32880926);
+        _coordinate = CLLocationCoordinate2DMake(41.3828722, 1.3291443);
     }
     return self;
 }
